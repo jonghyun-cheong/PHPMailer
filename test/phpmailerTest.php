@@ -1670,7 +1670,7 @@ EOT;
         $this->Mail->isMail();
         $this->Mail->isSendmail();
         $this->Mail->isQmail();
-        $this->Mail->setLanguage('fr');
+        $this->Mail->setLanguage('ko');
         $this->Mail->Sender = '';
         $this->Mail->createHeader();
         $this->assertFalse($this->Mail->set('x', 'y'), 'Invalid property set succeeded');
